@@ -1,0 +1,446 @@
+*{
+	padding:0px;
+	margin:0px;
+	box-sizing: border-box;
+	
+
+}
+main{
+	padding-top: 90px;
+}
+header{
+	/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#cb60b3+0,a80077+7,812baf+97 */
+	background-color:rgb( 1, 1, 73);
+	padding: 30px 0px;
+	position: fixed;
+	width: 100%;
+	z-index: 9999;
+}
+
+body{
+	background: black;
+	color: white;
+}
+
+
+.container{
+	background-color:rgb( 1, 1, 73);
+	width: 90%;
+	margin: auto;
+	display: flex; /*Lo hago flex*/
+	justify-content:space-between; 
+	align-items: center;
+	color: white;
+	
+}
+.menu{
+
+	text-align: center;
+	
+}
+
+header .titulo_inicio { /**/
+	font-family: 'Press Start 2P', cursive;
+	font-size:2.5em;
+	text-decoration: none;
+	color: white;
+	
+}
+
+ .container a{ 
+ 		text-decoration: none;
+	
+}
+
+.menu a{
+	text-decoration: none;
+	color:white;
+	padding: 15px;
+	font-size: 1.8em;
+}
+
+.menu a:hover{
+	 opacity: 0.3;
+  	border: 2px solid white;
+}
+
+.banner{ /*FOTO DEL BANNER*/
+width:100%;
+background-image:url("../Imagenes/banner.png");
+margin: auto;
+display: flex; 
+align-items: center;
+justify-content: center;
+flex-direction: column;
+margin-bottom: 3em;
+min-height: 30em;
+background-position: center center;
+background-size: cover;
+
+}
+
+
+.banner_titulo { /*TEXTO QUE LLEVA EL BANNER*/
+	padding: 3em;
+	font-size:2em; 
+	font-family: 'Monoton', cursive;
+	color:black;
+	margin:auto;
+		
+}
+
+.banner .boton_inicio{   /*boton banner*/
+	padding: 10px;
+	border-radius:15px;
+	text-align:center;
+  	font-size:2em;
+  	background: rgba(0,0,0,0.5);
+  	color: white;
+  	
+}
+
+.Novedades{ /*Caja Padre*/
+	width:100%;
+	display: flex;
+	background: black;
+}
+
+.Foto{
+	width:100%;
+	text-align: center;
+
+}
+
+.Foto img{
+  width:60%;
+  max-height:100%;
+
+}
+
+ img:hover{
+  
+  opacity: 0.3;
+  border: 2px solid yellow;
+
+}
+.novedades_descripcion {
+	width: 100%;
+	text-align: left;
+	margin-right: 10em;
+}
+.novedades_descripcion p,ul,li{
+	margin-bottom: 1em;
+	list-style: none;
+	font-family: 'Quicksand', sans-serif;
+	color:white;
+	font-size:1em;
+
+}
+
+.novedades_descripcion .texto_tendencias_italica{
+	font-style: italic;
+	color:rgb(155,155,155);
+}
+
+
+ main .titulo{ /*Todos los titulos H2 de la pagina*/
+	text-align: center;/*Alineamos el texto para el medio*/
+	margin:3em auto;		
+	font-family: 'Lexend Zetta', sans-serif;
+	font-size:2em;
+	background-color:#444;
+	
+}
+
+
+.fotos_series,.fotos_peliculas p{ /*Texto de los titulos de la peli y series*/
+	margin-bottom: 1em;
+	text-align: center;/*Alineamos el texto para el medio*/
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 3em;
+	text-align: center;
+	padding: 10px;
+	
+}
+
+.titulo_novedad  {	
+	text-align: center;/*Alineamos el texto para el medio*/
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 3em;
+	text-align: center;
+	padding: 10px;
+}
+
+.Tendencias{ /*Caja padre*/
+	width: 100%;
+	background:black;
+
+}
+
+.fotos_tendencias {
+   justify-content:space-between;/*Pone espacio entre las fotos */
+   display: flex; 
+   width: 90%;
+   background: black;
+   margin:auto; /*Centra las imagenes*/
+   
+}
+.fotos_tendencias .rank{
+ display: flex;
+ flex-direction: column;
+ width: 25%;
+ background-color: white;
+}
+
+.fotos_tendencias .rank img{
+	width: 70%;
+	margin:auto;
+}
+.fotos_tendencias .rank p{
+	text-align: center;
+	font-size: 2em;
+	color: black;
+	padding: 1em 0;
+}
+.fotos_tendencias .rank a {
+	text-align: center;
+	font-size: 2em;
+	color: black;
+	margin:1em ;
+	
+}
+
+.fotos_tendencias .rank a button {
+	text-align: center;
+	font-size: 0.5em;
+	color: white;
+	width: 80%;
+	background: black;
+	
+
+}
+
+
+
+/*SECCION SERIES*/
+.series{ /*Caja padre */
+	width: 100%;
+	background:black;	
+}
+
+.fotos_series{
+   justify-content:space-between;/*Pone espacio entre las fotos */
+   display: flex; 
+   width: 90%;
+   background: black;
+   margin:auto; /*Centra las imagenes*/
+}
+
+.fotos_series .foto{
+	display: flex; 
+	flex-direction: column; /*Que cada objeto ocupe una fila*/
+	width: 23%;
+
+}
+
+.fotos_series .foto img{
+	width: 100%;
+}
+
+.fotos_series .foto p{
+	text-align: center;
+	padding: 15px;
+	
+}
+.fotos_series .foto a{
+	text-decoration: none;
+	color: white;
+	
+}
+
+
+/*SECCION PELICULAS*/
+.peliculas{ /*Caja padre */
+	width: 100%;
+	background:black;
+	
+
+}
+
+.fotos_peliculas{
+   justify-content:space-between;/*Pone espacio entre las fotos */
+   display: flex; 
+   width: 90%;
+   background: black;
+   margin:auto; /*Centra las imagenes*/
+}
+
+.fotos_peliculas .foto{
+	display: flex; 
+	flex-direction: column; /*Que cada objeto ocupe una fila*/
+	width: 23%;
+
+}
+
+.fotos_peliculas .foto a{
+	text-decoration: none;
+	color: white;
+
+}
+.fotos_peliculas .foto img{
+	width: 100%;
+}
+
+
+
+
+/*EFECTOS ICONOS */
+
+i { /*Caja padre */
+	margin-right: 20px;
+	font-size:25px;
+	color: rgb(0,255,255);
+
+}
+
+/*SECCION CONTACTOS*/
+.contacto{ /*Caja padre */
+	width: 100%;
+	background:black;
+	
+}
+
+
+.contacto_seccion{
+   justify-content:space-between;/*Pone espacio entre las fotos */
+   display: flex; 
+   width: 90%;
+   background: black;
+   margin:auto; /*Centra las imagenes*/
+
+}
+
+.titulo_contacto{
+	text-align: center;/*Alineamos el texto para el medio*/
+	margin-bottom:1em;	
+	font-family: 'Lexend Zetta', sans-serif;
+	font-size:2em;
+	background-color:#444;
+   	
+   }
+
+   .detalle_contacto {
+   	margin-bottom: 1em;
+	font-family: 'Quicksand', sans-serif;
+	color:white;
+	font-size:1.5em;
+	text-align: center;
+
+   }
+.descripcion_contacto,.direccion_contacto,.formulario_contacto{
+	width: 30%;
+	text-align: justify;	
+	padding: 10px;
+}
+
+.direccion_contacto{
+	margin-top: 10px;
+	font-family: 'Quicksand', sans-serif;
+	color:white;
+	font-size:1.5em;
+	text-align: left;
+}
+
+.formulario_contacto{
+ display: flex; 
+}
+
+.formulario_contacto .nombre, .email{
+	width: 49%;
+	padding: 2px;
+	margin:2px 0;
+}
+
+.formulario_contacto .asunto,.comentario{
+	width: 100%;
+	padding: 2px;
+	margin:2px 0;
+
+}
+
+.formulario_contacto .enviar{
+	padding: 5px;
+	border-radius:  5px;
+	width:100%;
+  	text-align:center;
+  	background:rgba(0,255,255);
+  	color:black;
+  	font-size: 1.4em;
+}
+
+.direccion_contacto p{
+   padding:10px;
+   margin-right: 10px;
+
+}
+
+
+
+.pie {
+	
+	text-align:center;
+	margin-top: 2em;	
+	width: 100%;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 2em;
+	background-color:#444;
+}
+
+@media screen and (max-width: 960px)) {
+	.container{		
+		flex-direction: column;
+		justify-content: center;
+	}
+}
+
+@media screen and (max-width: 750px){
+	.banner{
+		flex-direction: column;
+
+	}
+	.banner_titulo{
+		font-size: 1em;
+	}
+	.Novedades{
+		flex-direction: column;
+		padding: 1em;
+	}
+	.fotos_tendencias{
+		flex-direction: column;
+		padding: 1em;
+		justify-content: center;
+		
+	}
+	.fotos_tendencias .rank{
+		width: 90%;
+	}
+	.banner{
+		width:100%;
+	}
+
+	.contacto_seccion{
+		flex-direction: column;
+		padding: 1em;
+		justify-content: center;
+		width: 100%;
+	}
+
+	.contacto_seccion .descripcion_contacto,.direccion_contacto,.formulario_contacto{
+		width: 100%;
+		text-align: center;
+	}
+}
+
+@media screen and (max-width: 750px) {
+	
+}
