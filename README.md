@@ -30,7 +30,7 @@ Podés descargar el repositorio y abrir el archivo `index.html` con tu navegador
 
 ## 📬 Contacto
 
-Si querés contactarme, podés encontrarme en [LinkedIn](https://www.linkedin.com/in/TU-LINKEDIN).
+Si querés contactarme, podés encontrarme en [LinkedIn](https://www.linkedin.com/in/lucas-chavez-284111b5/).
 
 ---
 
